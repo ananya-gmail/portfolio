@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 5px;
+}
+.website-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0px auto;
+   
+}
+section .home{
+    width: 100%;
+    min-height: 100vh;
+}
+.home .top-bar{
+    width: 100%;
+    padding: 6px 4%;
+    background-color: var(--bg-light-clr);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.4);
+}
+.home .top-bar .phone-email{
+    display: flex;
+    margin-right: 5px;
+}
+.home .top-bar  a{
+    margin-right: 3px;
+list-style: none;
+text-decoration: none;
+}
+.home .top-bar .phone-email .phone{
+    margin-right: 5px;
+}
+.home .navbar{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    padding: 0px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+.home .navbar ul.nav-links{
+    list-style: none;
+}
+.home .navbar ul.nav-links li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.home .navbar ul.nav-links li a{
+    text-decoration: none;
+    font-size: 5px;
+}
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOc91IOdtyNQa6CuCp5TIqUH89hKafBaDf6g&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* align-items: center;
+    justify-content: flex-start;
+    display: flex;
+} */
+}
+.home .banner{
+    text-align: center;
+    margin-top: 9px;
+    color: white;
+    font-size: 7px;
+}
+.home .banner h1{
+margin-top: 5px;
+}
+button{
+    font-size: 6px;
+    margin-top: 7px;
+    background-color: red;
+    color: white;
+}
+.home .banner h3{
+    color: red;
+}
